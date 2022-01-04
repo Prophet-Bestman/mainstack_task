@@ -7,10 +7,10 @@ const Conversations = () => {
         <div className="flex flex-col md:grid grid-cols-2 xl:grid-cols-3 gap-14 h-full w-full">
           <div className="col-span-2 xl:col-span-1 flex flex-col lg:flex-row xl:flex-col h-full ">
             <div className="max-w-[400px]">
-              <h2 className="text-[40px] leading-[52px] tracking-[0.02rem] font-bold text-white">
+              <h2 className="text-2xl md:text-[40px] md:leading-[52px] tracking-[0.02rem] font-bold text-white">
                 Conversations designed for people, not bots.
               </h2>
-              <p className="text-brand-gray font-medium text-xl leading-[150%]">
+              <p className="text-brand-gray font-medium text-base md:text-xl mt-6 md:leading-[150%]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.Amet minim
