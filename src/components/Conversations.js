@@ -1,7 +1,7 @@
 import React from "react";
 
 const Conversations = () => {
-  return <div>Conversations</div>;
+  return <div className="h-screen">Conversations</div>;
 };
 
 export default Conversations;

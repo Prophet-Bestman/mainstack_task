@@ -54,54 +54,53 @@ const Hero = () => {
           className="absolute top-[1186px] right-[29px]"
           alt=""
         />
-      </div>
-      <div className="flex -mt-[1340px] -max-m min-h-[900px] z-10 justify-center items-center ">
-        <div className="z-10">
-          {/* INTO TEXT AND CALL TO ACTION */}
-          <div className="flex flex-col mx-0 md:mx-12">
-            <h1 className="font-bold max-w-[830px] text-4xl leading-10 md:leading-[67px] px-8 md:px-0 md:text-heroSize z-10 text-center">
-              Create a one-page site to showcase your incredible works and{" "}
-              <span className="text-brand-primary"> get more clients.</span>
-            </h1>
-            <p className="my-[32px] mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-xl text-center max-w-[618px]">
-              Mainstack connects your audience to all of your content,
-              productivity with just one click to boost conversion rate.
-            </p>
+        <div className="flex absolute w-full -max-m min-h-screen min-h-[00px] z-10 justify-center items-center ">
+          <div className="z-10">
+            {/* INTO TEXT AND CALL TO ACTION */}
+            <div className="flex flex-col mx-0 md:mx-12">
+              <h1 className="font-bold max-w-[830px] text-3xl leading-8 md:leading-[67px] px-8 md:px-0 md:text-heroSize z-10 text-center">
+                Create a one-page site to showcase your incredible works and{" "}
+                <span className="text-brand-primary"> get more clients.</span>
+              </h1>
+              <p className="my-[32px] mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-lg md:text-xl text-center max-w-[618px]">
+                Mainstack connects your audience to all of your content,
+                productivity with just one click to boost conversion rate.
+              </p>
 
-            <div className="flex flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
-              <div className="relative flex items-center">
-                <p className="absolute pl-8 font-medium text-xl">
-                  Mainstack.app/
-                </p>
-                <input
-                  type="text"
-                  placeholder="yourname"
-                  className="h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
-                />
-                <img
-                  src="/img/check.png"
-                  className="absolute right-[27px]"
-                  alt=""
-                />
+              <div className="flex flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
+                <div className="relative flex items-center">
+                  <p className="absolute pl-8 font-medium text-xl">
+                    Mainstack.app/
+                  </p>
+                  <input
+                    type="text"
+                    placeholder="yourname"
+                    className="h-14 md:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                  />
+                  <img
+                    src="/img/check.png"
+                    className="absolute right-[27px]"
+                    alt=""
+                  />
+                </div>
+                <button className="px-[32px] py-4 md:py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
+                  Create your stack
+                </button>
               </div>
-              <button className="px-[32px] py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
-                Create your stack
-              </button>
             </div>
-          </div>
-
-          {/* SCREENSHOTS */}
-          <div className="my-[250px] w-full z-10 absolute flex px-0 md:px-5 lg:px-[96px] left-0">
-            <div className="grid z-10 md:p-8 grid-cols-3 relative mx-auto">
-              <div className="hidden md:col-span-2 md:flex">
-                <img src="/img/image_12.png" className="mr-[12px]" alt="" />
-              </div>
-              <div className="flex col-span-3 md:col-span-1 w-full mx-auto mb-0">
-                <img
-                  src="/img/image_13.png"
-                  className="mx-auto w-4/5 md:w-full"
-                  alt=""
-                />
+            {/* SCREENSHOTS */}
+            <div className="mt-[250px] w-full z-10 absolute flex px-0 md:px-5 lg:px-[96px] left-0">
+              <div className="md:grid z-10 md:p-8 grid-cols-3 relative mx-auto">
+                <div className="hidden md:col-span-2 md:flex">
+                  <img src="/img/image_12.png" className="mr-[12px]" alt="" />
+                </div>
+                <div className="flex col-span-3 md:col-span-1 w-full mx-auto mb-0">
+                  <img
+                    src="/img/image_13.png"
+                    className="mx-auto w-4/5 md:w-full"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
