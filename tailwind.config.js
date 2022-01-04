@@ -13,6 +13,9 @@ module.exports = {
         brand: {
           primary: "#C91C5A",
           gray: "#505A73",
+          bg: "#F2F5FA",
+          darkGradientFrom: "#22252D",
+          darkGradienttO: "#0A0C10",
         },
       },
     },

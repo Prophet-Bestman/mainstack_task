@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-[88px] sticky top-0 z-20 flex items-center bg-[#F2F5FA] px-[88px] justify-between">
+    <div className="h-[88px] sticky top-0 z-20 flex items-center bg-[#F2F5FAcc] backdrop-blur-2xl px-[88px] justify-between">
       <div>
         <img src="/img/Mainstack_Logo.png" alt="" />
       </div>
