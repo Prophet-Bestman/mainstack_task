@@ -55,7 +55,7 @@ const Hero = () => {
           alt=""
         />
       </div>
-      <div className="flex -mt-[1340px] -max-m min-h-[900px] justify-center items-center z-10">
+      <div className="flex -mt-[1340px] -max-m min-h-[900px] z-10 justify-center items-center ">
         <div className="z-10">
           {/* INTO TEXT AND CALL TO ACTION */}
           <div className="flex flex-col mx-0 md:mx-12">
@@ -69,10 +69,21 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
-              <input
-                type="text"
-                className="h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none px-3 mx-1.5 focus:border-brand-primary focus:border-[3px]"
-              />
+              <div className="relative flex items-center">
+                <p className="absolute pl-8 font-medium text-xl">
+                  Mainstack.app/
+                </p>
+                <input
+                  type="text"
+                  placeholder="yourname"
+                  className="h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                />
+                <img
+                  src="/img/check.png"
+                  className="absolute right-[27px]"
+                  alt=""
+                />
+              </div>
               <button className="px-[32px] py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
                 Create your stack
               </button>
@@ -80,12 +91,12 @@ const Hero = () => {
           </div>
 
           {/* SCREENSHOTS */}
-          <div className="my-[250px] z-10 absolute flex px-0 md:px-5 lg:px-[96px]   left-0">
-            <div className="flex flex-col-reverse justify-center lg:grid z-10 md:p-8 grid-cols-3 relative mx-auto">
-              <div className="col-span-2 flex">
+          <div className="my-[250px] w-full z-10 absolute flex px-0 md:px-5 lg:px-[96px] left-0">
+            <div className="grid z-10 md:p-8 grid-cols-3 relative mx-auto">
+              <div className="hidden md:col-span-2 md:flex">
                 <img src="/img/image_12.png" className="mr-[12px]" alt="" />
               </div>
-              <div className="flex col-span-1 mx-auto mb-0">
+              <div className="flex col-span-3 md:col-span-1 w-full mx-auto mb-0">
                 <img
                   src="/img/image_13.png"
                   className="mx-auto w-4/5 md:w-full"

@@ -1,4 +1,5 @@
 // import Header from "./components/Header";
+import Conversations from "./components/Conversations";
 import Hero from "./components/Hero";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="">
       {/* <Header /> */}
       <Hero />
+      <Conversations />
     </div>
   );
 }
