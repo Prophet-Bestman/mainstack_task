@@ -75,7 +75,7 @@ const Banner = () => {
               <input
                 type="text"
                 placeholder="yourname"
-                className="h-12 sm:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-40 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                className="h-12 sm:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-40 md:pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
               />
               <img
                 src="/img/check.png"
