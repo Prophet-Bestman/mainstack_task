@@ -46,7 +46,7 @@ const Header = () => {
       </div>
       {/* Nav Links */}
       <div className="hidden lg:flex flex-1 pl-24 col-span-1">
-        <ul className="flex space-x-6 font-medium">
+        <ul className="flex space-x-6 text-sm font-medium">
           <li className="">Pricing</li>
           <li>Blog</li>
           <li>About Us</li>
