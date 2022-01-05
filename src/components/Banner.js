@@ -90,8 +90,8 @@ const Banner = () => {
         </div>
       </div>
       {/* SCREENSHOTS */}
-      <div className="mt- w-full z-10 col-span-1 row-span-1 flex px-0 md:px-5 lg:px-[96px] left-0">
-        <div className="flex flex-col-reverse md:grid z-10 md:p-8 grid-cols-3 relative mx-auto">
+      <div className="mt- w-full  col-span-1 row-span-1 flex px-0 md:px-5 lg:px-[96px] left-0">
+        <div className="flex flex-col-reverse md:grid md:p-8 grid-cols-3 relative mx-auto">
           <div className="md:col-span-2 md:flex">
             <img src="/img/image_12.png" className="mr-[12px]" alt="" />
           </div>
