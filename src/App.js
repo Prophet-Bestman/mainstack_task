@@ -1,12 +1,12 @@
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Conversations from "./components/Conversations";
-import Hero from "./components/Hero";
+import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div className="">
-      {/* <Header /> */}
-      <Hero />
+    <div className="bg-[#F2F5FA]">
+      <Header />
+      <Banner />
       <Conversations />
     </div>
   );

@@ -3,58 +3,54 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="relative bg-[#F2F5FA] min-h-[1340px]">
-      <div className="h-screen min-h-[1340px]  relative">
+      <div className="h-screen min-h-[1340px] relative">
         <img
           src="/img/Link.png"
-          className="absolute top-[94px] left-[54px]"
+          className="absolute top-[94px] left-[54px] -z-30"
           alt=""
         />
         <img
           src="/img/Calendly.png"
-          className="absolute top-[302px] left-[178px]"
+          className="absolute top-[302px] left-[178px] -z-30"
           alt=""
         />
         <img
           src="/img/Image.png"
-          className="absolute top-[584px] left-[263px]"
+          className="absolute top-[584px] left-[263px] -z-30"
           alt=""
         />
         <img
           src="/img/Youtube.png"
-          className="absolute top-[697px] left-[60px]"
+          className="absolute top-[697px] left-[60px] -z-30"
           alt=""
         />
         <img
           src="/img/Music.png"
-          className="absolute top-[167px] right-[258px]"
+          className="absolute top-[167px] right-[258px] -z-30"
           alt=""
         />
         <img
           src="/img/TWC.png"
-          className="absolute top-[309px] right-[50px]"
+          className="absolute top-[309px] right-[50px] -z-30"
           alt=""
         />
-        <img
-          src="/img/mailchimp.png"
-          className="absolute top-[602px] right-[211px]"
-          alt=""
-        />
+        <img src="/img/mailchimp.png" className="hidden" alt="" />
         <img
           src="/img/Paypal.png"
-          className="absolute top-[718px] right-[29px]"
+          className="absolute top-[718px] right-[29px] -z-30"
           alt=""
         />
         <img
           src="/img/spotify.png"
-          className="absolute top-[995px] left-[30px]"
+          className="absolute top-[995px] left-[30px] -z-30"
           alt=""
         />
         <img
           src="/img/tiktok.png"
-          className="absolute top-[1186px] right-[29px]"
+          className="absolute top-[1186px] right-[29px] -z-30"
           alt=""
         />
-        <div className="flex absolute w-full -max-m min-h-screen min-h-[00px] z-10 justify-center items-center ">
+        <div className="flex absolute w-full  z-10 justify-center items-center ">
           <div className="z-10">
             {/* INTO TEXT AND CALL TO ACTION */}
             <div className="flex flex-col mx-0 md:mx-12">
@@ -62,13 +58,13 @@ const Hero = () => {
                 Create a one-page site to showcase your incredible works and{" "}
                 <span className="text-brand-primary"> get more clients.</span>
               </h1>
-              <p className="my-[32px] mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-lg md:text-xl text-center max-w-[618px]">
+              <p className="my-[32px] z-20 mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-lg md:text-xl text-center max-w-[618px]">
                 Mainstack connects your audience to all of your content,
                 productivity with just one click to boost conversion rate.
               </p>
 
-              <div className="flex flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
-                <div className="relative flex items-center">
+              <div className="flex z-10 flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
+                <div className="relative flex items-center z-10">
                   <p className="absolute pl-8 font-medium text-xl">
                     Mainstack.app/
                   </p>
@@ -83,7 +79,7 @@ const Hero = () => {
                     alt=""
                   />
                 </div>
-                <button className="px-[32px] py-4 md:py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
+                <button className="px-[32px] z-10 py-4 md:py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
                   Create your stack
                 </button>
               </div>
