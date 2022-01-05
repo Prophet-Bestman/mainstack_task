@@ -67,15 +67,15 @@ const Banner = () => {
             productivity with just one click to boost conversion rate.
           </p>
 
-          <div className="flex z-10 flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
+          <div className="flex z-10 px-2 flex-col lg:flex-row items-center mx-0 md:mx-[32px] justify-center">
             <div className="relative flex items-center">
-              <p className="absolute pl-8 font-medium text-xl">
+              <p className="absolute pl-8 font-medium text-lg md:text-xl">
                 Mainstack.app/
               </p>
               <input
                 type="text"
                 placeholder="yourname"
-                className="h-14 md:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                className="h-12 sm:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-40 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
               />
               <img
                 src="/img/check.png"
@@ -83,7 +83,7 @@ const Banner = () => {
                 alt=""
               />
             </div>
-            <button className="px-[32px] py-4 md:py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
+            <button className="px-[18px] py-[10px] sm:px-[32px] sm:py-[24px] bg-brand-primary my-2 text-white w-[341px] sm:w-auto rounded-full mx-1.5 font-medium text-lg sm:text-2xl">
               Create your stack
             </button>
           </div>
