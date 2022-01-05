@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="py-8 sticky top-0 z-20 grid grid-cols-3 lg:flex items-center bg-[#F2F5FAcc] backdrop-blur-2xl px-8 xl:px-[88px] justify-around">
+    <div className="py-4 lg:py-0 lg:min-h-[88px] sticky top-0 z-20 grid grid-cols-3 lg:flex items-center bg-[#F2F5FAcc] backdrop-blur-2xl px-8 xl:px-[88px] justify-around">
       <div className="w-4">
         <Transition
           show={isOpen}

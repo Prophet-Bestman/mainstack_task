@@ -56,7 +56,7 @@ const Banner = () => {
         />
       </div>
       {/* INTO TEXT AND CALL TO ACTION */}
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center -mt-8 md:mt-0 items-center h-screen">
         <div className="flex flex-col col-span-1 row-span-1 mx-0 md:mx-12 z-10">
           <h1 className="font-bold max-w-[830px] text-3xl leading-8 md:leading-[67px] px-8 md:px-0 md:text-heroSize z-10 text-center">
             Create a one-page site to showcase your incredible works and{" "}
