@@ -2,7 +2,7 @@ import React from "react";
 
 const Conversations = () => {
   return (
-    <div className="min-h-[1024px] my-[120px] z-10 bg-brand-bg px-0 sm:px-7 md:px-[100px]">
+    <div className="min-h-[1024px] mt-[120px] z-10 bg-brand-bg px-0 sm:px-7 md:px-[100px]">
       <div className="min-h-[822px] rounded-[30px] z-10 px-4 md:px-[72px] pt-[66px] pb-[76px] bg-gradient-to-r from-brand-darkGradientFrom  to-brand-darkGradienttO flex items-center">
         <div className="flex flex-col md:grid grid-cols-2 xl:grid-cols-3 gap-14 h-full w-full">
           <div className="col-span-2 xl:col-span-1 flex flex-col lg:flex-row xl:flex-col h-full ">
@@ -17,7 +17,7 @@ const Conversations = () => {
               </p>
             </div>
 
-            <div className="mt-12 md:mt-auto md:ml-auto">
+            <div className="mt-12 md:mt-auto md:ml-auto xl:ml-0">
               <button className="px-[18px] z-10 py-[10px] border text-black bg-white border-white hover:text-white hover:bg-transparent rounded-full mx-2">
                 Get Started
               </button>

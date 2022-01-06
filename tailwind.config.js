@@ -11,7 +11,7 @@ module.exports = {
       },
       colors: {
         brand: {
-          primary: "#C91C5A",
+          primary: { 100: "#F5B2CA", 900: "#C91C5A" },
           primaryTransparent: "#C91C5Af9",
           gray: "#505A73",
           bg: "#F2F5FA",

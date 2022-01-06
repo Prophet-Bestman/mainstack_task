@@ -74,27 +74,27 @@ const Header = () => {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <div className="h-[90vh] -ml-8 lg:hidden absolute top-[88px] bg-brand-primaryTransparent backdrop-blur-2xl w-full">
+          <div className="h-[99vh] -ml-8 lg:hidden absolute top-[60px] bg-brand-primaryTransparent backdrop-blur-2xl w-full">
             <div className="flex justify-center flex-col items-center h-full">
               <ul className="text-center pt-14 my-auto text-xl text-pink-200">
-                <li className="py-4 hover:text-pink-50">
+                <li className="py-4 hover:text-brand-primary-100">
                   <button className="font-bold">Pricing</button>
                 </li>
-                <li className="py-4 hover:text-pink-50">
+                <li className="py-4 hover:hover:text-brand-primary-100">
                   <button className="font-bold">Blog</button>
                 </li>
-                <li className="py-4 hover:text-pink-50">
+                <li className="py-4 hover:hover:text-brand-primary-100">
                   <button className="font-bold">About Us</button>
                 </li>
-                <li className="py-4 hover:text-pink-50">
+                <li className="py-4 hover:hover:text-brand-primary-100">
                   <button className="font-bold">Contact Us</button>
                 </li>
               </ul>
               <div className="mt-auto mb-16 flex flex-col">
-                <button className="px-[18px] my-2 py-[10px] border text-white font-bold hover:bg-white hover:text-brand-primary border-white rounded-full mx-2">
+                <button className="px-[18px] my-2 py-[10px] border text-white font-bold hover:bg-white hover:text-brand-primary-900 border-white rounded-full mx-2">
                   Sign In
                 </button>
-                <button className="px-[18px] my-2 py-[10px] border text-brand-primary font-bold bg-white border-white hover:text-white hover:bg-transparent rounded-full mx-2">
+                <button className="px-[18px] my-2 py-[10px] border text-brand-primary-900 font-bold bg-white border-white hover:text-white hover:bg-transparent rounded-full mx-2">
                   Create free account
                 </button>
               </div>

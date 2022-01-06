@@ -56,7 +56,10 @@ const Hero = () => {
             <div className="flex flex-col mx-0 md:mx-12">
               <h1 className="font-bold max-w-[830px] text-3xl leading-8 md:leading-[67px] px-8 md:px-0 md:text-heroSize z-10 text-center">
                 Create a one-page site to showcase your incredible works and{" "}
-                <span className="text-brand-primary"> get more clients.</span>
+                <span className="text-brand-primary-900">
+                  {" "}
+                  get more clients.
+                </span>
               </h1>
               <p className="my-[32px] z-20 mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-lg md:text-xl text-center max-w-[618px]">
                 Mainstack connects your audience to all of your content,
@@ -71,7 +74,7 @@ const Hero = () => {
                   <input
                     type="text"
                     placeholder="yourname"
-                    className="h-14 md:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                    className="h-14 md:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary-900 focus:ring-[3px]"
                   />
                   <img
                     src="/img/check.png"
@@ -79,7 +82,7 @@ const Hero = () => {
                     alt=""
                   />
                 </div>
-                <button className="px-[32px] z-10 py-4 md:py-[24px] bg-brand-primary my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
+                <button className="px-[32px] z-10 py-4 md:py-[24px] bg-brand-primary-900 my-2 text-white rounded-full mx-1.5 font-medium text-2xl">
                   Create your stack
                 </button>
               </div>

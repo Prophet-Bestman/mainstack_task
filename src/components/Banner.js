@@ -60,7 +60,7 @@ const Banner = () => {
         <div className="flex flex-col col-span-1 row-span-1 mx-0 md:mx-12 z-10">
           <h1 className="font-bold max-w-[830px] text-3xl leading-8 md:leading-[67px] px-8 md:px-0 md:text-heroSize z-10 text-center">
             Create a one-page site to showcase your incredible works and{" "}
-            <span className="text-brand-primary"> get more clients.</span>
+            <span className="text-brand-primary-900"> get more clients.</span>
           </h1>
           <p className="my-[32px] mx-auto px-10 md:px-0 leading-[150%] text-brand-gray  text-lg md:text-xl text-center max-w-[618px]">
             Mainstack connects your audience to all of your content,
@@ -75,7 +75,7 @@ const Banner = () => {
               <input
                 type="text"
                 placeholder="yourname"
-                className="h-12 sm:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-40 md:pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary focus:ring-[3px]"
+                className="h-12 sm:h-[74px] w-[341px] bg-[#DDE3F0] rounded-full my-2 focus:outline-none  pl-40 md:pl-44 pr-[66px] mx-1.5 focus:ring-brand-primary-900 focus:ring-[3px]"
               />
               <img
                 src="/img/check.png"
@@ -83,7 +83,7 @@ const Banner = () => {
                 alt=""
               />
             </div>
-            <button className="px-[18px] py-[10px] sm:px-[32px] sm:py-[24px] bg-brand-primary my-2 text-white w-[341px] sm:w-auto rounded-full mx-1.5 font-medium text-lg sm:text-2xl">
+            <button className="px-[18px] py-[10px] sm:px-[32px] sm:py-[24px] bg-brand-primary-900 my-2 text-white w-[341px] sm:w-auto rounded-full mx-1.5 font-medium text-lg sm:text-2xl">
               Create your stack
             </button>
           </div>
