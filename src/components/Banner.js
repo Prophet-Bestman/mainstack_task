@@ -36,7 +36,7 @@ const Banner = () => {
         />
         <img
           src="/img/instagram.png"
-          className="absolute top-[785px] left-[637px]"
+          className="absolute top-[697px] left-[190px] lg:left[400px] xl:left-[637px]"
           alt=""
         />
         <img
@@ -95,7 +95,7 @@ const Banner = () => {
         </div>
       </div>
       {/* SCREENSHOTS */}
-      <div className="mt- w-full  col-span-1 row-span-1 flex px-0 md:px-5 lg:px-[96px] left-0">
+      <div className="mt- w-full lg:pt-32 col-span-1 row-span-1 flex px-0 md:px-5 lg:px-[96px] left-0">
         <div className="flex flex-col-reverse md:grid md:p-8 grid-cols-3 relative mx-auto">
           <div className="md:col-span-2 md:flex">
             <img src="/img/image_12.png" className="mr-[12px]" alt="" />
