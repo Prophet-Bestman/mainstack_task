@@ -35,6 +35,11 @@ const Banner = () => {
           alt=""
         />
         <img
+          src="/img/instagram.png"
+          className="absolute top-[785px] left-[637px]"
+          alt=""
+        />
+        <img
           src="/img/mailchimp.png"
           className="absolute top-[602px] right-[211px]"
           alt=""

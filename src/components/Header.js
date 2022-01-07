@@ -6,16 +6,16 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="py-4 lg:py-0 lg:min-h-[88px] sticky top-0 z-20 grid grid-cols-3 lg:flex items-center bg-[#F2F5FAcc] backdrop-blur-2xl px-8 xl:px-[88px] justify-around">
-      <div className="w-4">
+    <div className="py-4 lg:py-0 lg:min-h-[88px] sticky top-0 z-40 grid grid-cols-3 lg:flex items-center bg-[#F2F5FAcc] backdrop-blur-2xl px-8 xl:px-[88px] justify-around">
+      <div className="w-2">
         <Transition
           show={isOpen}
-          enter="transform transition duration-[400ms]"
-          enterFrom="opacity-0 rotate-[-120deg] scale-50"
-          enterTo="opacity-100 rotate-0 scale-100"
-          leave="transform duration-200 transition ease-in-out"
-          leaveFrom="opacity-100 rotate-0 scale-100 "
-          leaveTo="opacity-0 scale-95 "
+          // enter="transform transition duration-[400ms]"
+          // enterFrom="opacity-0 rotate-[-120deg] scale-50"
+          // enterTo="opacity-100 rotate-0 scale-100"
+          // leave="transform duration-200 transition ease-in-out"
+          // leaveFrom="opacity-100 rotate-0 scale-100 "
+          // leaveTo="opacity-0 scale-95 "
         >
           <AiOutlineClose
             className="lg:hidden my-auto"
@@ -26,12 +26,12 @@ const Header = () => {
 
         <Transition
           show={!isOpen}
-          enter="transform transition duration-[400ms]"
-          enterFrom="opacity-0 rotate-[-120deg] scale-50"
-          enterTo="opacity-100 rotate-0 scale-100"
-          leave="transform duration-200 transition ease-in-out"
-          leaveFrom="opacity-100 rotate-0 scale-100 "
-          leaveTo="opacity-0 scale-95 "
+          // enter="transform transition duration-[400ms]"
+          // enterFrom="opacity-0 rotate-[-120deg] scale-50"
+          // enterTo="opacity-100 rotate-0 scale-100"
+          // leave="transform duration-200 transition ease-in-out"
+          // leaveFrom="opacity-100 rotate-0 scale-100 "
+          // leaveTo="opacity-0 scale-95 "
         >
           <AiOutlineMenu
             onClick={() => setIsOpen(true)}
@@ -74,7 +74,7 @@ const Header = () => {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <div className="h-[99vh] -ml-8 lg:hidden absolute top-[60px] bg-brand-primaryTransparent backdrop-blur-2xl w-full">
+          <div className="h-[99vh] -ml-8 lg:hidden absolute top-[60px] bg-brand-primary-900 backdrop-blur-2xl w-full">
             <div className="flex justify-center flex-col items-center h-full">
               <ul className="text-center pt-14 my-auto text-xl text-pink-200">
                 <li className="py-4 hover:text-brand-primary-100">

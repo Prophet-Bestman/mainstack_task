@@ -4,7 +4,7 @@ const SecondSection = () => {
   return (
     <div className="min-h-[1024px] z-10 mt-20 xl:mt-0 bg-brand-bg px-0 sm:px-7 xl:px-[100px]">
       <div className="flex flex-col justify-center items-center">
-        <div className="max-w-[715px]">
+        <div className="max-w-[715px] mx-5">
           <h2 className="text-3xl md:text-[52px] z-10 md:leading-[120%] mb-6 tracking-[0.02rem] text-center font-bold text-black">
             Conversations designed for{" "}
             <span className="text-brand-primary-900">people, not bots.</span>
